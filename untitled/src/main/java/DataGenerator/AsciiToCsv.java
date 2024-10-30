@@ -9,8 +9,8 @@ import java.io.IOException;
 public class AsciiToCsv {
 
     public static void main(String[] args) {
-        String asciiFilePath = "/Users/tariromusarandega/Library/CloudStorage/OneDrive-St.LawrenceUniversity/TariMusa/untitled/src/main/java/DataGenerator/Ecommerce-Customers"; // Path to your ASCII file
-        String csvFilePath = "/Users/tariromusarandega/Library/CloudStorage/OneDrive-St.LawrenceUniversity/TariMusa/untitled/src/main/java/DataGenerator/Ecommerce-Customers1"; // Path to save the CSV file
+        String asciiFilePath = "/src/main/java/DataGenerator/Ecommerce-Customers"; // Path to your ASCII file
+        String csvFilePath = "/DataGenerator/Ecommerce-Customers1"; // Path to save the CSV file
 
         convertAsciiToCsv(asciiFilePath, csvFilePath);
     }
