@@ -11,7 +11,7 @@ public class DataGenerator {
     // PostgreSQL connection details
     private static final String DB_URL = "jdbc:postgresql://localhost:5433/e_commerce_db";
     private static final String USER = "postgres";
-    private static final String PASSWORD = "Tarie?9654";
+    private static final String PASSWORD = "Insert-your-password";
 
     public static void main(String[] args) {
         Faker faker = new Faker();  // For generating fake data
